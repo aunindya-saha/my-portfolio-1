@@ -1,5 +1,64 @@
+/* common shared text design */
+body {
+    font-family: 'Open Sans';
+    font-style: normal;
+    
+
+}
+.nav-title{
+    
+font-style: normal;
+font-weight: 800;
+font-size: 45px;
+
+
+
+}
+.primary-color{
+  color: #FD6E0A;
+
+}
 /*nav related styles*/
 nav {
- 
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+}
+nav >ul{
+
+    display: flex;  
+    align-items: center;  
+
+}
+nav li{
+    list-style: none;
+    margin-right: 50px;
+
+    
+}
+nav a{
+    text-decoration: none;
+    color: #474747;
+    font-weight: 400;
+    font-size: 20px;
+}
+.button-primary{
+    background: #FD6E0A;
+    border-radius: 5px;
+    border: 0;
+    
+    color: #FFFFFF;    
+    font: bold;
+    font-size: larger;
+    font-weight: 700;
+    padding: 15px 35px;
+
+
+   
+width: 150px;
+height: 64px;
+left: 1220px;
+top: 50px;
 
 }
