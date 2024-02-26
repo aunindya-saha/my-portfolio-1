@@ -147,3 +147,8 @@ main section {
   font-weight: 700;
   font-size: 30px;
 }
+.resume-container{
+
+  display: flex;
+  gap: 50px;
+}
