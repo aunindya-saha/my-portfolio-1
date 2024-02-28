@@ -172,21 +172,29 @@ footer{
 }
 
 .social-links a{
-  margin-left: 20px;
+ 
+  margin-right: 20px;
+  padding-right: 0%;
+  margin-left: 0px;
+  
   
 }
 .footer-column{
-  text-align: center;
+  text-align: left;
   width: 50%;
   
 }
-.contact input,textarea{
+.contact input[type="text"], .contact input[type="email"],
+textarea{
   display: block;
   margin-bottom: 25px;
   padding: 18px 35px;
   border: 0px;
+  width: 100%;
+
  
    border-radius: 5px;
+   
 
 
 }
