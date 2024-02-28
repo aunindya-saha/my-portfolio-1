@@ -162,3 +162,31 @@ main section {
 .download-cv{
   text-align: center;
 }
+/* footer design */
+footer{
+  display: flex;
+  background: #FFF8F3;
+  margin-top: 100px;
+  padding: 130px 200px;
+ gap: 100px;
+}
+
+.social-links a{
+  margin-left: 20px;
+  
+}
+.footer-column{
+  text-align: center;
+  width: 50%;
+  
+}
+.contact input,textarea{
+  display: block;
+  margin-bottom: 25px;
+  padding: 18px 35px;
+  border: 0px;
+ 
+   border-radius: 5px;
+
+
+}
