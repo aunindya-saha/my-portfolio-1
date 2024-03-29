@@ -190,7 +190,7 @@ textarea{
   display: block;
   margin-bottom: 25px;
   padding: 18px 35px;
-  border: 0px;
+  border: 1px solid black;
   width: 100%;
 
  
@@ -202,4 +202,106 @@ textarea{
 
 
 }
+.hide{
+  display: none;
+}
+@media screen and (max-width:576px) {
+ 
+ .header{
+  width:110%;
+ } 
+ .banner {
+    padding: 0px;
+  padding-bottom: 20px;
+  }
+  .banner-content {
+    max-width: 585px;
+    position: relative;
+    left: 0.5em;
+}
+  nav{
+  display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* margin: 0 200px; */
+    flex-direction: column;
+ } 
+  .profile-pic{
+    display: none;
+  }.about {
+    padding: 0px;
+  }
+  .about-info-container {
+    display: flex;
+    justify-content: space-between;
+    font-weight: 400;
+    font-size: 20px;
+    flex-direction: column;
+}
+  #what-i-do-description {
+    padding: 0px;
+    margin-bottom: 30px;
+}
+  .skill-container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+  .resume-container {
+    display: flex;
+    gap: 50px;
+    flex-direction: column;
+    width: 85%
+}
+  footer {
+    display: flex;
+    background: #FFF8F3;
+    margin-top: 100px;
+    gap: 100px;
+    flex-direction: column;
+    padding: 0px;
+}
+  .footer-column {
+    text-align: center;
+    width: 85%;
+    align-self: center;
+}
+.contact input[type="text"], .contact input[type="email"],
+textarea{
+  display: flex;
+  margin-bottom: 25px;
+  padding: 18px 35px;
+  border: 1px solid black;
+  width: 80%;
+  border-radius: 5px;
+  font-weight: 400;
+  font-size: 16px;
+  font-family: "Open Sans";
+  position: relative;
+  justify-content: center;
+  flex-direction: column;
+  left: 0.3rem;
+}
+.button-primary{
+  margin-right: 0px;
+}
 
+
+}
+
+@media screen and (min-width:577px)and (max-width:992px){
+  
+  footer {
+    justify-content: center;
+    background: #FFF8F3;
+    margin-top: 100px;
+    gap: 30px;
+    padding: 0px;
+    position: relative;
+    width: 95%;
+}
+.footer-column {
+  text-align: left;
+  width: 42%;
+}
+}
